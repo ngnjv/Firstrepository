@@ -30,7 +30,7 @@ namespace SalaryCalculate
         }
         public override string ToString()
         {
-            return "\n\n Base Salary "+base.ToString()+"\n Basesalary: "+Basesalary.ToString() ;
+            return "\n\n Base Salary "+ Basesalary.ToString()+ base.ToString()+"\n Basesalary: "+Basesalary.ToString() ;
         }
 
     }

@@ -35,7 +35,7 @@ namespace SalaryCalculate
         }
         public override string ToString()
         {
-            return "\n\n Commision employee"+base.ToString()+"Gross Rate: "+Grosssales.ToString()+"Commission Rate : "+ Commisionrate.ToString() ;
+            return "\n\n Commision employee"+base.ToString()+"\n Gross Rate: "+Grosssales.ToString()+"\n Commission Rate : "+ Commisionrate.ToString() ;
         }
     }
 }

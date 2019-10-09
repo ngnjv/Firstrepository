@@ -26,7 +26,7 @@ namespace SalaryCalculate
         }
         public override string ToString()
         {
-            return "\n\n Hourly employee : " + base.ToString() + "Hourly Worked " + Houres.ToString() + "\n Wage : " + Wage; ;
+            return "\n\n Hourly employee : " + base.ToString() + "\n Hourly Worked " + Houres.ToString() + "\n Wage : " + Wage; ;
         }
     }
 }
